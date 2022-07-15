@@ -5,17 +5,19 @@ const styles = {
     position: 'fixed',
     bottom: '0',
     width: '100%',
-    background: '#A9C5A0',
+    height: '30px'
+,    background: '#A9C5A0',
   },
-  h3: {
+  h4: {
     color: '#020402',
+    textAlign: 'center',
   }
 }
 
 function Footer() {
   return (
     <div style={styles.div}>
-      <h3 style={styles.h3}>footer-content-placeholder-thing</h3>
+      <h4 style={styles.h4}>Made with ❤️ by Andrew McKelvey</h4>
       
     </div>
   );
